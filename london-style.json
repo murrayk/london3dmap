@@ -8,11 +8,11 @@
   },
   "sources": {
     "openmaptiles": {
-       "url": "http:///localhost:8080/london-meta.json",
+       "url": "london-meta.json",
       "type": "vector"
     }
   },
-  "glyphs": "http:///localhost:8080/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
