@@ -14,10 +14,10 @@
  	"profile": "mercator",
  	"scale": 1,
 
- 	"tiles": ["http://localhost:8080/london/{z}/{x}/{y}.pbf"],
+ 	"tiles": ["london/{z}/{x}/{y}.pbf"],
  	"tilejson": "2.0.0",
  	"scheme": "xyz",
- 	"grids": ["http://localhost:8080/london/{z}/{x}/{y}.grid.json"],
+ 	"grids": ["london/{z}/{x}/{y}.grid.json"],
  	"_prefs": {
  		"saveCenter": true,
  		"disabled": [],
@@ -720,5 +720,5 @@
  		}
  	}],
  	"zoom": 7,
- 	"tileUrl": "http://localhost:8080/london/4/7/6.pbf"
+ 	"tileUrl": "london/4/7/6.pbf"
  }
