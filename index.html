@@ -35,8 +35,9 @@ map.on('style.load', function() {
 
                 var loader = new THREE.GLTFLoader();
 
-                loader.load('authur.gltf', (function (gltf) {
-                    threebox.addAtCoordinate(gltf.scene, [ -0.1195,51.5033, 1]);
+                loader.load('eye.gltf', (function (gltf) {
+
+                    threebox.addAtCoordinate(gltf.scene, [ -0.11845, 51.5024, 1]);
 
                 }).bind(this));
 
